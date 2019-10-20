@@ -2,11 +2,9 @@
   <section class="blog">
     <h2>BLOG</h2>
 
-    <div class="examplecard">
-      <examplecard />
-    </div>
+    <p>coming soon</p>
 
-    <div class="blog-contents">
+    <!-- <div class="blog-contents">
       <card
         v-for="post in posts"
         v-bind:key="post.fields.slug"
@@ -16,41 +14,42 @@
         :publishedAt="post.fields.publishedAt"
         :body="post.fields.body"
       />
-    </div>
+    </div>-->
   </section>
 </template>
 
 <script>
-import Card from "~/components/card.vue";
-import examplecard from "~/components/examplecard.vue";
-import { createClient } from "~/plugins/contentful.js";
+// import Card from "~/components/card.vue";
+// import examplecard from "~/components/examplecard.vue";
+// import { createClient } from "~/plugins/contentful.js";
 
-const client = createClient();
-export default {
-  transition: "slide-left",
-  components: {
-    Card,
-    examplecard
-  },
-  async asyncData({ env, params }) {
-    return await client
-      .getEntries({
-        content_type: env.CTF_BLOG_POST_TYPE_ID,
-        order: "-fields.publishedAt"
-      })
-      .then(entries => {
-        return {
-          posts: entries.items
-        };
-      })
-      .catch(console.error);
-  }
-};
+// const client = createClient();
+// export default {
+//   transition: "slide-left",
+//   components: {
+//     Card,
+//     examplecard
+//   },
+//   async asyncData({ env, params }) {
+//     return await client
+//       .getEntries({
+//         content_type: env.CTF_BLOG_POST_TYPE_ID,
+//         order: "-fields.publishedAt"
+//       })
+//       .then(entries => {
+//         return {
+//           posts: entries.items
+//         };
+//       })
+//       .catch(console.error);
+//   }
+// };
+//
 </script>
 
 <style scoped lang="scss">
 .blog {
-  height: auto;
+  height: 350px;
   width: 100%;
   background-image: url(../assets/bg_blog.jpg);
   background-repeat: no-repeat;
