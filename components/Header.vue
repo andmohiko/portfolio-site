@@ -1,25 +1,21 @@
 <template>
   <header class="header-container">
-    <h1 class="header-logo">
-      <img src="../assets/logo.png" alt="andmohiko" />
-    </h1>
-
     <nav>
       <ul>
         <li>
-          <a href="#top">TOP</a>
+          <a href="/">TOP</a>
         </li>
         <li>
-          <a href="#about">ABOUT</a>
+          <a href="/about">ABOUT</a>
         </li>
         <li>
-          <a href="#blog">BLOG</a>
+          <a href="/blog">BLOG</a>
         </li>
         <li>
-          <a href="#portfolio">PORTFOLIO</a>
+          <a href="/portfolio">PORTFOLIO</a>
         </li>
         <li>
-          <a href="#contact">CONTACT</a>
+          <a href="/contact">CONTACT</a>
         </li>
       </ul>
     </nav>
@@ -32,10 +28,10 @@
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   padding: 0px 20px;
 

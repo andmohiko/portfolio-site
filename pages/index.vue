@@ -1,5 +1,5 @@
 <template>
-  <section class="top">
+  <section class="top-page">
     <div class="top-container" id="top">
       <h1>andmohiko</h1>
       <h2>
@@ -8,19 +8,19 @@
     </div>
 
     <div class="about-container" id="about">
-      <About />
+      <h2>ABOUT</h2>
     </div>
 
     <div class="blog-container" id="blog">
-      <Blog />
+      <h2>BLOG</h2>
     </div>
 
     <div class="portfolio-container" id="portfolio">
-      <Portfolio />
+      <h2>PORTFOLIO</h2>
     </div>
 
     <div class="contact-container" id="contact">
-      <Contact />
+      <h2>CONTACT</h2>
     </div>
   </section>
 </template>
@@ -31,12 +31,37 @@ import Blog from "~/components/Blog.vue";
 import Portfolio from "~/components/Portfolio.vue";
 import Contact from "~/components/Contact.vue";
 
+import Card from "~/components/card.vue";
+import { createClient } from "~/plugins/contentful.js";
+
+const client = createClient();
 export default {
+  transition: "slide-left",
   components: {
     About,
     Blog,
     Portfolio,
-    Contact
+    Contact,
+    Card
+  },
+  data() {
+    return {
+      posts: ""
+    };
+  },
+
+  async asyncData({ env, params }) {
+    return await client
+      .getEntries({
+        content_type: env.CTF_BLOG_POST_TYPE_ID,
+        order: "-fields.publishedAt"
+      })
+      .then(entries => {
+        return {
+          posts: entries.items
+        };
+      })
+      .catch(console.error);
   }
 };
 </script>
@@ -84,6 +109,7 @@ export default {
 }
 
 .blog-container {
+  height: auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -93,7 +119,16 @@ export default {
   flex-wrap: wrap;
 }
 
+.portfolio-container {
+  height: auto;
+}
+
 .contact-container {
-  height: 250px;
+  height: auto;
+}
+
+.index {
+  display: flex;
+  flex-wrap: wrap;
 }
 </style>

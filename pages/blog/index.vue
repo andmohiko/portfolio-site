@@ -1,31 +1,31 @@
 <template>
-  <section class="blog">
-    <h2>BLOG</h2>
-
-    <div class="blog-contents">
-      <card
-        v-for="post in posts"
-        v-bind:key="post.fields.slug"
-        :title="post.fields.title"
-        :slug="post.fields.slug"
-        :headerImage="post.fields.headerImage"
-        :publishedAt="post.fields.publishedAt"
-        :body="post.fields.body"
-      />
+  <section class="blog-page">
+    <div class="blog-container" id="blog">
+      <Blog />
+      <section class="index">
+        <card
+          v-for="post in posts"
+          v-bind:key="post.fields.slug"
+          :title="post.fields.title"
+          :slug="post.fields.slug"
+          :headerImage="post.fields.headerImage"
+          :publishedAt="post.fields.publishedAt"
+        />
+      </section>
     </div>
-    <a href="/blog">もっと見る</a>
   </section>
 </template>
 
 <script>
+import Blog from "~/components/Blog.vue";
 import Card from "~/components/card.vue";
 import { createClient } from "~/plugins/contentful.js";
 
 const client = createClient();
 export default {
-  props: ["title", "slug", "headerImage", "publishedAt", "body"],
   transition: "slide-left",
   components: {
+    Blog,
     Card
   },
   data: function() {
@@ -33,7 +33,6 @@ export default {
       posts: ""
     };
   },
-
   // data: function() {
   //   return {
   //     posts: {
@@ -52,7 +51,7 @@ export default {
   //       }
   //     }
   //   };
-  // }
+  // },
   async asyncData({ env, params }) {
     return await client
       .getEntries({
@@ -70,41 +69,20 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.blog {
-  height: auto;
-  width: 100%;
-  // background-image: url(../assets/bg_blog.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
-  background-color: rgba(0, 0, 0, 0.9);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-
-  h2 {
-    font-weight: bold;
-    font-size: 30px;
-    margin: 40px;
-    // text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
-  }
-  a {
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  a:hover {
-    opacity: 0.7;
-  }
-}
-
-.blog-contents {
+.blog-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.7);
+  height: 700px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 </style>

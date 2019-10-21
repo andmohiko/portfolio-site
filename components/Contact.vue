@@ -9,24 +9,20 @@
 
 <style scoped lang="scss">
 .contact {
-  height: 250px;
-  background-image: url(../assets/bg_contact.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  height: 200px;
 
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
-  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
+  // text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
 
   h2 {
     font-weight: bold;
     font-size: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 }
 </style>

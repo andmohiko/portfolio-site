@@ -19,6 +19,7 @@ export default {
 .card {
   width: 300px;
   height: 200px;
+  background-color: rgba(255, 255, 255);
   box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.2);
   border: 0.5px solid rgb(57, 72, 85);
   padding: 10px 20px;

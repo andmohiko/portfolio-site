@@ -7,20 +7,20 @@
 
 <style scoped lang="scss">
 .portfolio {
-  height: 350px;
+  height: 200px;
   width: 100%;
-  background-image: url(../assets/bg_about.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  // background-image: url(../assets/bg_about.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
 
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
-  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
+  // text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
 
   h2 {
     font-weight: bold;
