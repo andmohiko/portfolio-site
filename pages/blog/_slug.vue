@@ -3,9 +3,7 @@
     <h1 class="slug_title">{{ post.fields.title }}</h1>
     <p class="slug_date">{{ (new Date(post.fields.publishedAt)).toLocaleDateString() }}</p>
     <img class="slug_image" v-bind:src="post.fields.headerImage.fields.file.url" />
-    <!-- <vue-markdown>{{post.fields.body}}</vue-markdown> -->
     <div v-html="$md.render(post.fields.body)"></div>
-    <!-- <markdown-it class="md-body" :content="content" /> -->
     <p class="slug_body">{{ post.fields.body }}</p>
   </section>
 </template>
