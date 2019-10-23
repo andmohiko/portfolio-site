@@ -41,6 +41,6 @@ export default {
   text-align: right;
 }
 .card_image {
-  max-height: 100px;
+  max-width: 250px;
 }
 </style>

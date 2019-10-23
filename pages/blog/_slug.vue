@@ -6,6 +6,7 @@
     <!-- <vue-markdown>{{post.fields.body}}</vue-markdown> -->
     <div v-html="$md.render(post.fields.body)"></div>
     <!-- <markdown-it class="md-body" :content="content" /> -->
+    <p class="slug_body">{{ post.fields.body }}</p>
   </section>
 </template>
 
@@ -41,18 +42,39 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .slug {
   max-width: 800px;
   margin: 0 auto;
 }
+
 .slug_title {
+  margin-top: 80px;
   font-size: 2rem;
   font-weight: bolder;
 }
+
+.slug_image {
+  max-width: 100%;
+}
+
 .slug_date {
   font-size: 1rem;
-  color: rgb(57, 72 85);
+  color: rgb(57, 72, 85);
   text-align: right;
+}
+
+.v-html {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
 }
 </style>

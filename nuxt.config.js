@@ -1,45 +1,3 @@
-module.exports = {
-  /*
-  ** Headers of the page
-  */
-  head: {
-    title: 'andmohiko',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'my portfolio site' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
-    css: [
-      '~/assets/style/reset.css'
-    ],
-  },
-  /*
-  ** Customize the progress bar color
-  */
-  loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** Run ESLint on save
-    */
-    extend(config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  }
-}
-
 const { getConfigForKeys } = require('./lib/config.js')
 const ctfConfig = getConfigForKeys([
   'CTF_BLOG_POST_TYPE_ID',
@@ -51,15 +9,21 @@ const cdaClient = createClient(ctfConfig)
 
 const config = {
   head: {
-    title: 'nuxt_blog',
+    title: 'andmohiko',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    css: [
+      '~/assets/style/reset.css'
+    ],
   },
 
+  // Customize the progress bar color
   loading: { color: '#3B8070' },
 
   build: {
@@ -76,6 +40,16 @@ const config = {
   },
 
   plugins: [{ src: '~plugins/contentful' }],
+
+  modules: [
+    '@nuxtjs/markdownit'
+  ],
+  markdownit: {
+    injected: true,
+    preset: 'default',
+    linkify: true,
+    breaks: true
+  },
 
   generate: {
     routes() {

@@ -13,12 +13,11 @@
         :body="post.fields.body"
       />
     </div>
-    <a href="/blog">もっと見る</a>
   </section>
 </template>
 
 <script>
-import Card from "~/components/card.vue";
+import Card from "~/components/Card.vue";
 import { createClient } from "~/plugins/contentful.js";
 
 const client = createClient();
@@ -34,25 +33,6 @@ export default {
     };
   },
 
-  // data: function() {
-  //   return {
-  //     posts: {
-  //       async asyncData({ env, params }) {
-  //         return await client
-  //           .getEntries({
-  //             content_type: env.CTF_BLOG_POST_TYPE_ID,
-  //             order: "-fields.publishedAt"
-  //           })
-  //           .then(entries => {
-  //             return {
-  //               posts: entries.items
-  //             };
-  //           })
-  //           .catch(console.error);
-  //       }
-  //     }
-  //   };
-  // }
   async asyncData({ env, params }) {
     return await client
       .getEntries({

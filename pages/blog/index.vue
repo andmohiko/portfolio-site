@@ -42,9 +42,10 @@ export default {
 
 <style scoped lang="scss">
 .blog-container {
-  // height: auto;
-  height: 700px;
+  height: auto;
+  // height: 700px;
   width: 100%;
+  padding: 40px;
   background-image: url(../../assets/bg_blog.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,8 +74,8 @@ export default {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-// .card {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
 </style>
