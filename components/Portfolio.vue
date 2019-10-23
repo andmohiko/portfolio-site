@@ -7,12 +7,12 @@
 
 <style scoped lang="scss">
 .portfolio {
-  height: 200px;
+  height: 700px;
   width: 100%;
-  // background-image: url(../assets/bg_about.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
+  background-image: url(../assets/bg_portfolio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
