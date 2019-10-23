@@ -21,6 +21,7 @@
 .about {
   height: auto;
   width: 100%;
+  padding: 40px;
   background-image: url(../assets/bg_about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
