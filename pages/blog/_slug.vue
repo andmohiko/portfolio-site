@@ -3,8 +3,7 @@
     <h1 class="slug_title">{{ post.fields.title }}</h1>
     <p class="slug_date">{{ (new Date(post.fields.publishedAt)).toLocaleDateString() }}</p>
     <img class="slug_image" v-bind:src="post.fields.headerImage.fields.file.url" />
-    <div v-html="$md.render(post.fields.body)"></div>
-    <p class="slug_body">{{ post.fields.body }}</p>
+    <div class="slug_body" v-html="$md.render(post.fields.body)"></div>
   </section>
 </template>
 
@@ -17,11 +16,6 @@ export default {
   transition: "slide-left",
   components: {
     markdownIt
-  },
-  data() {
-    return {
-      content: "# Hello World!"
-    };
   },
   async asyncData({ env, params }) {
     return await client
@@ -44,6 +38,7 @@ export default {
 .slug {
   max-width: 800px;
   margin: 0 auto;
+  padding: 3%;
 }
 
 .slug_title {
@@ -60,19 +55,5 @@ export default {
   font-size: 1rem;
   color: rgb(57, 72, 85);
   text-align: right;
-}
-
-.v-html {
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
 }
 </style>

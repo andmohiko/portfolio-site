@@ -19,7 +19,8 @@ const config = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     css: [
-      '~/assets/style/reset.css'
+      '~/assets/style/reset.css',
+      '~/assets/style/slug_body.css'
     ],
   },
 

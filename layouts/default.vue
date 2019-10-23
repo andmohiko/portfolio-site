@@ -21,6 +21,7 @@ export default {
 
 <style>
 @import "~/assets/style/reset.css";
+@import "~/assets/style/slug_body.css";
 
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",

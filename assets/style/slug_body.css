@@ -1,0 +1,13 @@
+.slug_body h1 {
+  color: black;
+  font-size: 24px;
+}
+
+.slug_body h2 {
+  color: red;
+  font-size: 20px;
+}
+.slug_body h3 {
+  color: black;
+  font-size: 10px;
+}
