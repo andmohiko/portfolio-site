@@ -1,8 +1,6 @@
 <template>
   <section class="about-page">
-    <div class="about-container" id="about">
-      <About />
-    </div>
+    <About />
   </section>
 </template>
 
@@ -18,7 +16,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.about-container {
+.about-page {
   height: auto;
 }
 </style>

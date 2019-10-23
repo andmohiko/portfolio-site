@@ -1,13 +1,42 @@
-.slug_body h1 {
-  color: black;
-  font-size: 24px;
+.slug_body {
+  color: #333333;
 }
 
 .slug_body h2 {
-  color: red;
-  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #ddd;
 }
+
 .slug_body h3 {
-  color: black;
-  font-size: 10px;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.slug_body p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.slug_body ul{
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.slug_body li{
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.slug_body li:last-child{
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
 }
