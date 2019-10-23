@@ -47,6 +47,7 @@ export default {
   margin: 0 auto;
   padding: 5%;
   background-color: #ffffff;
+  box-shadow: 0 0 10px #e9e9e9;
 }
 
 .slug_date {
