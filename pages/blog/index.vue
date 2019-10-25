@@ -1,6 +1,6 @@
 <template>
   <section class="blog-page">
-    <div class="blog-title">
+    <div class="title">
       <h1>BLOG</h1>
     </div>
     <div class="blog-content">
@@ -55,12 +55,12 @@ export default {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   color: #fff;
 }
 
-.blog-title {
+.title {
   width: 100%;
 
   display: flex;

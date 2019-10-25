@@ -1,7 +1,9 @@
 <template>
   <header class="header-container">
     <div class="header-logo">
-      <img src="~/assets/logo.png" alt="logo" />
+      <a href="https://twitter.com/andmohiko">
+        <img src="~/assets/logo.png" alt="logo" />
+      </a>
     </div>
     <nav>
       <ul>

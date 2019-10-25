@@ -1,6 +1,6 @@
 <template>
   <section class="about-container">
-    <div class="about-title">
+    <div class="title">
       <h1>ABOUT</h1>
     </div>
 
@@ -47,8 +47,7 @@
   color: #fff;
 }
 
-.about-title {
-  // height: 250px;
+.title {
   width: 100%;
 
   display: flex;
@@ -67,9 +66,6 @@
 .about-content {
   height: auto;
   width: 100%;
-  // margin-left: 10%;
-  // margin-right: 10%;
-  // margin-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
   padding: 1.2rem;

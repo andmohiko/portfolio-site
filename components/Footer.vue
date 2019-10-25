@@ -21,15 +21,8 @@
   height: 80px;
   background-color: #111;
   display: flex;
-  // flex-direction: row;
   padding: 2rem;
   justify-content: space-between;
-  // position: relative;
-
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translateY(-50%) translateX(-50%);
-  //   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
 .links {
@@ -40,12 +33,7 @@
   img {
     height: 22px;
     width: 22px;
-    margin-right: 20px;
-    //   position: relative;
-    //   top: 50%;
-    //   left: 50%;
-    //   transform: translateY(-50%) translateX(-50%);
-    //   -webkit-transform: translateY(-50%) translateX(-50%);
+    margin-right: 25px;
   }
 }
 
