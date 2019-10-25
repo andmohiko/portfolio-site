@@ -59,7 +59,7 @@
   h1 {
     font-weight: bold;
     font-size: 2.2rem;
-    margin: 4rem;
+    margin: 1.5rem 0 4rem 0;
     text-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
   }
 }

@@ -2,9 +2,7 @@
   <section class="top-page">
     <div class="top-container" id="top">
       <h1>andmohiko</h1>
-      <h2>
-        <a href="https://twitter.com/andmohiko">@andmohiko</a>
-      </h2>
+      <!-- <a href="https://twitter.com/andmohiko">@andmohiko</a> -->
     </div>
   </section>
 </template>
