@@ -1,6 +1,8 @@
 <template>
-  <section class="blog">
-    <h2>BLOG</h2>
+  <section class="blog-container">
+    <div class="title">
+      <h1>BLOG</h1>
+    </div>
 
     <div class="blog-contents">
       <card
@@ -50,7 +52,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.blog {
+.blog-container {
   height: auto;
   width: 100%;
   // background-image: url(../assets/bg_blog.jpg);

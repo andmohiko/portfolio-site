@@ -1,6 +1,6 @@
 <template>
   <section class="about-container">
-    <div class="about-title">
+    <div class="title">
       <h1>ABOUT</h1>
     </div>
 
@@ -47,7 +47,7 @@
   color: #fff;
 }
 
-.about-title {
+.title {
   width: 100%;
 
   display: flex;
