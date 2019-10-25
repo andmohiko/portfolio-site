@@ -2,9 +2,7 @@
   <section class="top-page">
     <div class="top-container" id="top">
       <h1>andmohiko</h1>
-      <h2>
-        <a href="https://twitter.com/andmohiko">@andmohiko</a>
-      </h2>
+      <!-- <a href="https://twitter.com/andmohiko">@andmohiko</a> -->
     </div>
   </section>
 </template>
@@ -14,17 +12,18 @@
 
 <style scoped lang="scss">
 .top-container {
-  height: 700px;
+  height: calc(100vh - 80px);
+  size: cover;
   width: 100%;
-  // background-image: url(../assets/bg_top.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
+  background-image: url(../assets/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
 
   h1 {
@@ -40,7 +39,7 @@
   }
 
   a {
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
   }
