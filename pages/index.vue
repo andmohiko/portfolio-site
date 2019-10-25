@@ -16,10 +16,10 @@
 .top-container {
   height: 700px;
   width: 100%;
-  // background-image: url(../assets/bg_top.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
+  background-image: url(../assets/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
