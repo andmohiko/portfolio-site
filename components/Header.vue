@@ -35,7 +35,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 0px 1rem;
+  padding: 0px 2em;
 
   ul {
     display: flex;
