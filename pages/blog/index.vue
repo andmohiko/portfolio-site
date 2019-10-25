@@ -1,6 +1,8 @@
 <template>
-  <section class="blog-container">
-    <h2>BLOG</h2>
+  <section class="blog-page">
+    <div class="blog-title">
+      <h1>BLOG</h1>
+    </div>
     <div class="blog-content">
       <card
         v-for="post in posts"
@@ -41,41 +43,47 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.blog-container {
+.blog-page {
   height: auto;
-  // height: 700px;
   width: 100%;
-  padding: 40px;
-  background-image: url(../../assets/bg_blog.jpg);
+  padding: 100px 30px 30px 30px;
+
+  background-image: url(../../assets/bg-blog.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.9);
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
 
-  // flex-wrap: wrap;
+.blog-title {
+  width: 100%;
 
-  h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
     font-weight: bold;
-    font-size: 30px;
-    margin: 40px;
-    // text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
+    font-size: 2.2rem;
+    margin: 4rem;
+    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
   }
 }
 
-.blog-contents {
+.blog-content {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
 }
 
 .card {
-  display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px;
 }
 </style>

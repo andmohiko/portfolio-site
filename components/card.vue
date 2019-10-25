@@ -19,17 +19,24 @@ export default {
 .card {
   width: 300px;
   height: 200px;
-  background-color: rgba(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.6);
   box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.2);
   border: 0.5px solid rgb(57, 72, 85);
+  border-radius: 5px;
   padding: 10px 20px;
-  margin: 10px 10px;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .wrapper {
   text-decoration: none;
 }
 .card_title {
   font-size: 1.2rem;
+  color: white;
 }
 .card_text {
   color: rgb(57, 72, 85);
@@ -37,10 +44,12 @@ export default {
 }
 .card_date {
   font-size: 0.7rem;
-  color: rgb(57, 72, 85);
+  color: rgba(255, 255, 255, 0.8);
   text-align: right;
 }
 .card_image {
+  max-height: 120px;
   max-width: 250px;
+  text-align: center;
 }
 </style>

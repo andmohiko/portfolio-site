@@ -38,7 +38,7 @@ export default {
 
 <style scoped lang="scss">
 .blog-content-container {
-  padding: 80px;
+  padding: 4rem;
   background-color: #f6f6f6;
 }
 

@@ -1,5 +1,8 @@
 <template>
   <header class="header-container">
+    <div class="header-logo">
+      <img src="~/assets/logo.png" alt="logo" />
+    </div>
     <nav>
       <ul>
         <li>
@@ -23,31 +26,36 @@
 .header-container {
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
-  height: 50px;
-  line-height: 50px;
+  height: 90px;
+  line-height: 90px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
-  padding: 0px 20px;
+  padding: 0px 4rem;
 
   ul {
     display: flex;
   }
   li {
-    margin-left: 20px;
+    margin-left: 4rem;
     list-style-type: none;
   }
   a {
-    color: #fff;
+    color: white;
     font-weight: bold;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.2rem;
   }
   a:hover {
     opacity: 0.7;
   }
+}
+
+.header-logo {
+  margin: 6px 12px;
+
   img {
     height: 25px;
   }

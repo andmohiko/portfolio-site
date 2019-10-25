@@ -16,15 +16,15 @@
 .top-container {
   height: 700px;
   width: 100%;
-  background-image: url(../assets/bg_top.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  // background-image: url(../assets/bg_top.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: black;
   text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
 
   h1 {
@@ -40,7 +40,7 @@
   }
 
   a {
-    color: #fff;
+    color: black;
     font-weight: bold;
     text-decoration: none;
   }
