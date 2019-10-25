@@ -24,7 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
 
   h1 {
@@ -40,7 +40,7 @@
   }
 
   a {
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
   }
