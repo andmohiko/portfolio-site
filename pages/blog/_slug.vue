@@ -38,16 +38,17 @@ export default {
 
 <style scoped lang="scss">
 .blog-content-container {
-  padding: 4rem;
-  background-color: #f6f6f6;
+  padding: 90px 2rem 2rem 2rem;
+  background-color: #c4c43b7c;
 }
 
 .slug {
   max-width: 800px;
   margin: 0 auto;
   padding: 5%;
+  border-radius: 5px;
   background-color: #ffffff;
-  box-shadow: 0 0 10px #e9e9e9;
+  box-shadow: 0 0 10px #dedddd;
 }
 
 .slug_date {
