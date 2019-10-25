@@ -1,6 +1,9 @@
 # はい
 https://andmohiko.netlify.com/
 
+## staging
+https://staging--andmohiko.netlify.com/
+
 # netlify
 https://app.netlify.com/sites/andmohiko/overview
 
