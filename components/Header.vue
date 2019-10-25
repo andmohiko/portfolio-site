@@ -33,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 0px 4rem;
+  padding: 0px 1rem;
 
   ul {
     display: flex;

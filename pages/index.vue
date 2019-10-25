@@ -12,7 +12,8 @@
 
 <style scoped lang="scss">
 .top-container {
-  height: 700px;
+  height: calc(100vh - 80px);
+  size: cover;
   width: 100%;
   background-image: url(../assets/bg-top.jpg);
   background-repeat: no-repeat;

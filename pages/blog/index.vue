@@ -44,7 +44,7 @@ export default {
 
 <style scoped lang="scss">
 .blog-page {
-  height: auto;
+  min-height: calc(100vh - 80px);
   width: 100%;
   padding: 100px 30px 30px 30px;
 

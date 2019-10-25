@@ -7,7 +7,7 @@
 
 <style scoped lang="scss">
 .portfolio {
-  height: 700px;
+  min-height: calc(100vh - 80px);
   width: 100%;
   background-image: url(../assets/bg_portfolio.jpg);
   background-repeat: no-repeat;
