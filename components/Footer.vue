@@ -21,7 +21,7 @@
   height: 80px;
   background-color: #111;
   display: flex;
-  padding: 2.2rem;
+  padding: 33px;
   justify-content: space-between;
 }
 
