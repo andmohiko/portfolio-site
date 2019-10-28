@@ -20,6 +20,21 @@
   border-bottom: 1px solid #ddd;
 }
 
+.slug_body h4 {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 0;
+}
+
+.slug_body h5 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-top: 1rem;
+  padding: 0.3rem 0;
+}
+
 .slug_body p {
   font-size: 1rem;
   line-height: 1.6rem;
