@@ -43,7 +43,7 @@ export default {
 }
 
 .slug {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 5%;
   border-radius: 5px;
