@@ -35,7 +35,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 0px 1rem;
+  padding: 0px 30px;
 
   ul {
     display: flex;
@@ -56,7 +56,7 @@
 }
 
 .header-logo {
-  margin: 6px 12px;
+  margin: 6px 0;
 
   img {
     height: 25px;
