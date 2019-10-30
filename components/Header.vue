@@ -62,4 +62,19 @@
     height: 25px;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .header-container {
+    padding: 0;
+    justify-content: center;
+    li {
+      margin-left: 1.5rem;
+    }
+  }
+  .header-logo {
+    img {
+      display: none;
+    }
+  }
+}
 </style>
