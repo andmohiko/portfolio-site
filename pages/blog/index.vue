@@ -11,6 +11,7 @@
         :slug="post.fields.slug"
         :headerImage="post.fields.headerImage"
         :publishedAt="post.fields.publishedAt"
+        :body="post.fields.body"
       />
     </div>
   </section>
@@ -48,7 +49,7 @@ export default {
   width: 100%;
   padding: 100px 30px 30px 30px;
 
-  background-image: url(../../assets/bg-blog.jpg);
+  background-image: url(../../assets/bg-blog-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -72,7 +73,7 @@ export default {
     font-weight: bold;
     font-size: 2.2rem;
     margin: 1.5rem 0 4rem 0;
-    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
   }
 }
 

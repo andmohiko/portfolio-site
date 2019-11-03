@@ -70,4 +70,8 @@ export default {
   max-width: 100%;
   margin-bottom: 60px;
 }
+
+.slug_body {
+  color: #dadada;
+}
 </style>
