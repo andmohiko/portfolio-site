@@ -1,17 +1,14 @@
 <template>
   <header class="header-container">
-    <div class="header-logo">
+    <h1 class="header-logo">
       <a href="https://twitter.com/andmohiko">
-        <img src="~/assets/logo.png" alt="logo" />
+        <img src="~/assets/logo.png" alt="andmohiko" />
       </a>
-    </div>
+    </h1>
     <nav>
       <ul>
         <li>
           <a href="/">TOP</a>
-        </li>
-        <li>
-          <a href="/about">ABOUT</a>
         </li>
         <li>
           <a href="/blog">BLOG</a>
