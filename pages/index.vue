@@ -1,20 +1,26 @@
 <template>
   <section class="top-page">
     <div class="top-container" id="top">
-      <h1>andmohiko</h1>
+      <About />
     </div>
   </section>
 </template>
 
 <script>
+import About from "~/components/about.vue";
+export default {
+  components: {
+    About
+  }
+};
 </script>
 
 <style scoped lang="scss">
 .top-container {
-  height: calc(100vh - 80px);
+  // height: calc(100vh - 80px);
   size: cover;
   width: 100%;
-  background-image: url(../assets/bg-top.jpg);
+  background-image: url(../assets/bg-top-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
