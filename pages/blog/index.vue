@@ -7,11 +7,11 @@
       <card
         v-for="post in posts"
         v-bind:key="post.fields.slug"
-        :title="post.fields.title"
-        :slug="post.fields.slug"
         :headerImage="post.fields.headerImage"
-        :publishedAt="post.fields.publishedAt"
+        :title="post.fields.title"
         :body="post.fields.body"
+        :slug="post.fields.slug"
+        :publishedAt="post.fields.publishedAt"
       />
     </div>
   </section>
@@ -80,6 +80,7 @@ export default {
 .blog-content {
   display: flex;
   flex-wrap: wrap;
+  // flex-direction: row;
   justify-content: center;
 }
 
