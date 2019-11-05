@@ -24,7 +24,7 @@
   width: 100%;
   padding: 100px 30px 30px 30px;
 
-  background-image: url(../assets/bg_portfolio.jpg);
+  background-image: url(../assets/bg_portfolio-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

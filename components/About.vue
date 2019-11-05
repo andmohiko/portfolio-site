@@ -1,9 +1,5 @@
 <template>
   <section class="about-container">
-    <div class="title">
-      <h1>ABOUT</h1>
-    </div>
-
     <div class="about-content">
       <div class="about-icon">
         <a href="https://twitter.com/andmohiko">
@@ -23,7 +19,7 @@
         <h2>興味のある技術</h2>
         <p>機械学習, 自然言語処理, レコメンドシステム, データサイエンス</p>
         <h2>好きなこと</h2>
-        <p>世界平和, ポケモン, ミニマリズム, イギリス</p>
+        <p>世界平和, ポケモン, ボードゲーム, ミニマリズム, イギリス</p>
       </div>
     </div>
   </section>
@@ -35,7 +31,7 @@
   width: 100%;
   padding: 100px 30px 30px 30px;
 
-  background-image: url(../assets/bg-about.jpg);
+  background-image: url(../assets/bg-about-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -71,6 +67,7 @@
   padding: 1.2rem;
   line-height: 28px;
   color: #fff;
+  text-align: center;
 
   h2 {
     font-weight: bold;

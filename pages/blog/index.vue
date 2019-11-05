@@ -7,9 +7,10 @@
       <card
         v-for="post in posts"
         v-bind:key="post.fields.slug"
-        :title="post.fields.title"
-        :slug="post.fields.slug"
         :headerImage="post.fields.headerImage"
+        :title="post.fields.title"
+        :body="post.fields.body"
+        :slug="post.fields.slug"
         :publishedAt="post.fields.publishedAt"
       />
     </div>
@@ -48,7 +49,7 @@ export default {
   width: 100%;
   padding: 100px 30px 30px 30px;
 
-  background-image: url(../../assets/bg-blog.jpg);
+  background-image: url(../../assets/bg-blog-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -72,13 +73,14 @@ export default {
     font-weight: bold;
     font-size: 2.2rem;
     margin: 1.5rem 0 4rem 0;
-    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
   }
 }
 
 .blog-content {
   display: flex;
   flex-wrap: wrap;
+  // flex-direction: row;
   justify-content: center;
 }
 
