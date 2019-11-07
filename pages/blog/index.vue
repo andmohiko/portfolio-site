@@ -49,7 +49,7 @@ export default {
   width: 100%;
   padding: 100px 30px 30px 30px;
 
-  background-image: url(../../assets/bg-blog-min.jp2);
+  background-image: url(../../assets/bg-blog-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
