@@ -5,12 +5,12 @@
     </div>
     <div class="portfolio-content">
       <div class="portfolio-card">
-        <img src="../assets/portfolios/ajdevteam.png" alt="ajdevteam" />
+        <img src="../assets/portfolios/ajdevteam-min.png" alt="ajdevteam" />
         <h2>AJ開発チームのホームページ</h2>
         <p>アイセックジャパンの開発チームのホームページを作りました(非公式)</p>
       </div>
       <div class="portfolio-card">
-        <img src="../assets/portfolios/portfolio-site.png" alt="portfolio-site" />
+        <img src="../assets/portfolios/ps-min.png" alt="portfolio-site" />
         <h2>ポートフォリオサイト</h2>
         <p>自分のブログ&ポートフォリオサイトを作りました。</p>
       </div>
