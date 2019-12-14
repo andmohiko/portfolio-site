@@ -20,9 +20,9 @@
         <p>機械学習, 自然言語処理, レコメンドシステム, データサイエンス</p>
         <h2>好きなこと</h2>
         <p>世界平和, ポケモン, ボードゲーム, ミニマリズム, イギリス</p>
-				<p>黄色と白チョコがすきです</p>
-				<h2>スキル</h2>
-				<p>Python, 機械学習, Vue.js, 英語(TOEIC 930)</p>
+        <p>黄色と白チョコがすきです</p>
+        <h2>スキル</h2>
+        <p>Python, 機械学習, Vue.js, 英語(TOEIC 930)</p>
       </div>
     </div>
   </section>
@@ -70,6 +70,7 @@
   padding: 1.2rem;
   line-height: 28px;
   color: #fff;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
   text-align: center;
 
   h2 {

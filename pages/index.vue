@@ -29,7 +29,6 @@ export default {
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
 
   h1 {
     font-weight: bold;
