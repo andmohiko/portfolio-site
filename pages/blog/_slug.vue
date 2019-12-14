@@ -72,6 +72,6 @@ export default {
 }
 
 .slug_body {
-  color: #dadada;
+  color: #333333;
 }
 </style>
