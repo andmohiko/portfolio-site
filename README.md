@@ -1,18 +1,6 @@
-# はい
-https://andmohiko.netlify.com/
+# andmohiko official website
 
-## staging
-https://staging--andmohiko.netlify.com/
-
-# netlify
-https://app.netlify.com/sites/andmohiko/overview
-
-# contentful
-?
-
-# portfolio-site
-
-> my portfolio site
+https://andmohiko.dev/
 
 ## Build Setup
 
