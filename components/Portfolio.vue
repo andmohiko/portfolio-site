@@ -5,24 +5,46 @@
     </div>
     <div class="portfolio-content">
       <div class="portfolio-card">
+        <a href="https://speakerdeck.com/andmohiko/wen-zhang-falsebekutoruhua">
+          <img src="../assets/portfolios/sentenceembedding.png" alt="scentence embedding" />
+        </a>
+        <h2>文章のベクトル化と類似判定</h2>
+        <p>
+          ニュース記事のタイトルをベクトル化し、タイトルの類似性を判定する機械学習モデルを作りました。
+          <br />使っている技術はPython, 機械学習, 自然言語処理です。
+        </p>
+      </div>
+
+      <div class="portfolio-card">
+        <a href="https://qiita.com/andmohiko/items/e185cbb59d9c32e6dd6a">
+          <img src="../assets/portfolios/pokemondatascience2.png" alt="pokemon data science" />
+        </a>
+        <h2>ポケモンをデータ分析してみた</h2>
+        <p>
+          ポケモンのデータを分析したり機械学習してみました。分析結果をアドベントカレンダーとして書いてます。
+          <br />Python, Numpy, Pandas, Matplotlib, sklearnと定番なところを全部突っ込みました。
+        </p>
+      </div>
+
+      <div class="portfolio-card">
         <a href="https://www.work-school.com/courses/5/">
           <img src="../assets/portfolios/ws-ds-min.png" alt="workschool data scientist course" />
         </a>
-        <h2>Workschool データサイエンティストコース</h2>
+        <h2>オンライン学習サービスの教材</h2>
         <p>
-          オンライン学習サービスのデータサイエンティストコースの教材を作りました。
+          Workschoolというオンライン学習サービスのデータサイエンティストコースの教材を作りました。
           <br />PythonでPandasを使ってデータを分析したりscikit-learnで機械学習してみるという内容になってます。
         </p>
       </div>
 
       <div class="portfolio-card">
-        <a href="http://ajdevteam.netlify.com">
-          <img src="../assets/portfolios/ajdevteam-min.png" alt="ajdevteam" />
+        <a href="https://speakerdeck.com/andmohiko/predicting-categories-of-news-articles">
+          <img src="../assets/portfolios/categoryprediction.png" alt="categoryprediction" />
         </a>
-        <h2>AJ開発チームのホームページ</h2>
+        <h2>ニュース記事のカテゴリー分類</h2>
         <p>
-          アイセックジャパンの開発チームのホームページを作りました(非公式)
-          <br />Bootstrapを使いました。
+          ニュースアプリで配信する記事を適切なカテゴリータブに分類する問題を機械学習で解きました。
+          <br />使っている技術はPython, 機械学習, 自然言語処理です。
         </p>
       </div>
 
@@ -34,6 +56,17 @@
         <p>
           自分のブログ&ポートフォリオサイトを作りました。
           <br />Nuxt.js+Contentful+Netlifyを使ってます。
+        </p>
+      </div>
+
+      <div class="portfolio-card">
+        <a href="http://ajdevteam.netlify.com">
+          <img src="../assets/portfolios/ajdevteam-min.png" alt="ajdevteam" />
+        </a>
+        <h2>AJ開発チームのホームページ</h2>
+        <p>
+          アイセックジャパンの開発チームのホームページを作りました(非公式)
+          <br />Bootstrapを使いました。
         </p>
       </div>
     </div>
