@@ -39,7 +39,7 @@ export default {
 <style scoped lang="scss">
 .blog-content-container {
   padding: 90px 2rem 2rem 2rem;
-  background-color: #1f1f1f;
+  background-color: #323232;
 }
 
 .slug {
@@ -48,7 +48,7 @@ export default {
   padding: 5%;
   border-radius: 5px;
   background-color: #f2f2f2;
-  box-shadow: 0 0 5px #dedddd;
+  box-shadow: 0 0 3px #dedddd;
 }
 
 .slug_date {
