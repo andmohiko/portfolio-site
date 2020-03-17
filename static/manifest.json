@@ -1,5 +1,12 @@
 {
- "name": "App",
+  "name": "andmohikodev",
+  "short_name": "andd",
+  "description": "andmohiko.dev",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#aaaaaa",
+  "theme_color": "#776f59",
+  "orientation": "portrait",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
