@@ -16,20 +16,7 @@ const config = {
       { hid: 'description', name: 'description', content: 'andmohiko.dev' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-57x57.png" },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-60x60.png" },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-72x72.png" },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-76x76.png" },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-114x114.png" },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-120x120.png" },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-144x144.png" },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-152x152.png" },
-      { rel: "apple-touch-icon", type: 'image/x-icon', href: "/apple-icon-180x180.png" },
-      // { rel: "icon", type: 'image/x-icon', sizes: "192x192 },
-      // { rel: "icon", type: 'image/x-icon', sizes: "32x32 },
-      // { rel: "icon", type: 'image/x-icon', sizes: "96x96 },
-      // { rel: "icon", type: 'image/x-icon', sizes: "16x16 },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ],
     css: [
       '~/assets/style/reset.css',
