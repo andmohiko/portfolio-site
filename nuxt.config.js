@@ -17,7 +17,7 @@ const config = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      { rel="manifest", href="manifest.json" }
+      { rel="manifest", href="/manifest.json" }
     ],
     css: [
       '~/assets/style/reset.css',
