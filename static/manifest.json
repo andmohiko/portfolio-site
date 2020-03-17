@@ -2,7 +2,7 @@
 	"name":				"andmohiko.dev",
 	"short_name":		"mohikodev",
 	"description":		"andmohikodev",
-	"start_url":		"/",
+	"start_url":		"/static/",
 	"display":			"standalone",
 	"orientation":		"portrait",
 	"background_color":	"#aaaaaa",
