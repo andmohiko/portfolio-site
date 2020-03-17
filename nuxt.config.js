@@ -16,7 +16,8 @@ const config = {
       { hid: 'description', name: 'description', content: 'andmohiko.dev' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: "manifest", href: "/manifest.json" }
     ],
     css: [
       '~/assets/style/reset.css',
