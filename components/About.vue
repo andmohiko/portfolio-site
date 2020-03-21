@@ -10,8 +10,8 @@
         <h2>プロフィール</h2>
         <p>
           M1(コンピュータサイエンス)
-          <br />TRUNK / JX通信社
-          <br />ex) D2C / DMM
+          <br />mtc
+          <br />ex) TRUNK / JX通信社 / DMM / OPENLOGI / Wantedly
           <br />TRIGGER2015 / AIESEC in Japan WALC
           <br />INTJ
         </p>
