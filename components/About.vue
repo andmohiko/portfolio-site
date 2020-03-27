@@ -12,7 +12,7 @@
           M1(コンピュータサイエンス)
           <br />mtc
           <br />ex) TRUNK / JX通信社 / DMM / OPENLOGI / Wantedly
-          <br />TRIGGER2015 / AIESEC in Japan WALC
+          <br />TRIGGER2015 / AIESEC in Japan BCXP
           <br />INTJ
         </p>
         <h2></h2>
