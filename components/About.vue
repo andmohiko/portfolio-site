@@ -9,11 +9,9 @@
       <div class="about-profile">
         <h2>プロフィール</h2>
         <p>
-          M1(コンピュータサイエンス)
-          <br />TRUNK / JX通信社
-          <br />ex) D2C / DMM
-          <br />TRIGGER2015 / AIESEC in Japan WALC
-          <br />INTJ
+          M2(コンピュータサイエンス)
+          <br />メンヘラテクノロジー / AIESEC in Japan MCBCXP
+          <br />ex) TRUNK / JX通信社 / DMM / OPENLOGI / Wantedly
         </p>
         <h2></h2>
         <p></p>
@@ -23,7 +21,7 @@
         <p>世界平和, ポケモン, ボードゲーム, ミニマリズム, イギリス</p>
         <p>黄色いものと白チョコがすきです</p>
         <h2>スキル</h2>
-        <p>Python, 機械学習, Vue.js, 英語(TOEIC 930)</p>
+        <p>Python, 機械学習, Vue.js, Typescript, 英語(TOEIC 930)</p>
       </div>
     </div>
   </section>
