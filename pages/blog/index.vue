@@ -7,7 +7,6 @@
       <card
         v-for="post in posts"
         v-bind:key="post.fields.slug"
-        :headerImage="post.fields.headerImage"
         :title="post.fields.title"
         :body="post.fields.body"
         :slug="post.fields.slug"
