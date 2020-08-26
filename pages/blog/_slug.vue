@@ -3,7 +3,7 @@
     <div class="slug">
       <p class="slug_date">{{ (new Date(post.fields.publishedAt)).toLocaleDateString() }}</p>
       <h1 class="slug_title">{{ post.fields.title }}</h1>
-      <img class="slug_image" v-bind:src="post.fields.headerImage.fields.file.url" />
+      <!-- <img class="slug_image" v-bind:src="post.fields.headerImage.fields.file.url" /> -->
       <div class="slug_body" v-html="$md.render(post.fields.body)"></div>
     </div>
   </section>

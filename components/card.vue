@@ -1,9 +1,9 @@
 <template>
   <article class="card">
     <nuxt-link :to="{ name: 'blog-slug', params: { slug: slug }}" class="wrapper">
-      <div class="card_image_container">
+      <!-- <div class="card_image_container">
         <img class="card_image" v-bind:src="headerImage.fields.file.url" />
-      </div>
+      </div> -->
       <div class="card_title_container">
         <h1 class="card_title">{{ title }}</h1>
       </div>
@@ -29,8 +29,8 @@ export default {
 
 <style scoped lang="scss">
 .card {
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 150px;
   margin: 10px;
   padding: 1.5rem;
   background-color: rgba(0, 0, 0, 0.6);
