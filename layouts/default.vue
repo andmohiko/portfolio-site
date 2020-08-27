@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <Header />
     <main class="container">
       <nuxt />
@@ -70,5 +70,14 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.wrapper {
+  background-color: rgb(41,41,41);
+}
+
+/* .container {
+  max-width: 1000px;
+  margin: 0 auto;
+} */
 </style>
 
