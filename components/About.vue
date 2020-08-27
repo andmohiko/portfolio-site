@@ -1,7 +1,23 @@
 <template>
   <section class="about-container">
-    <div class="about-content">
-      <div class="about-icon">
+    <div class="about">
+      <div class="profile">
+        <div class="profile-icon">
+          <a href="https://twitter.com/andmohiko">
+            <img src="../assets/profilepich.png" alt="profilepic" />
+          </a>
+        </div>
+        <div class="profile-content">
+          <p class="profile-name">andmohiko</p>
+          <p class="profile-text">
+            <span>M2(コンピュータサイエンス)</span>
+            <span>メンヘラテクノロジー</span>
+            <span>AIESEC in Japan MCBCXP</span>
+            <span>Python/Machine Learning/NLP/Vuejs/Typescript</span>
+          </p>
+        </div>
+      </div>
+      <!-- <div class="about-icon">
         <a href="https://twitter.com/andmohiko">
           <img src="../assets/profilepich.png" alt="profilepic" />
         </a>
@@ -22,7 +38,7 @@
         <p>黄色いものと白チョコがすきです</p>
         <h2>スキル</h2>
         <p>Python, 機械学習, Vue.js, Typescript, 英語(TOEIC 930)</p>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -30,13 +46,14 @@
 <style scoped lang="scss">
 .about-container {
   height: auto;
-  width: 100%;
+  // width: 100%;
+  max-width: 1000px;
   padding: 100px 30px 30px 30px;
 
-  background-image: url(../assets/bg-about-min.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  // background-image: url(../assets/bg-about-min.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
 
   display: flex;
   flex-direction: column;
@@ -61,10 +78,10 @@
   }
 }
 
-.about-content {
+.about {
   height: auto;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  // background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
   padding: 1.2rem;
   line-height: 28px;
@@ -82,10 +99,10 @@
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
-  p {
-    font-size: 1.1rem;
-    margin-bottom: 3rem;
-  }
+  // p {
+  //   font-size: 1.1rem;
+  //   margin-bottom: 3rem;
+  // }
 }
 
 .about-icon {
@@ -101,4 +118,40 @@
     border-radius: 100%;
   }
 }
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // justify-content: center;
+  // align-items: center;
+  &-icon {
+    img {
+      height: 200px;
+      width: 200px;
+      margin: 30px 50px 30px 30px;
+      border-radius: 100%;
+    }
+  }
+  &-content {
+    color: #ffffff;
+    // display: flex;
+    // justify-content: center;
+    // align-items: left;
+    // margin-left: 0;
+    text-align: left;
+    span {
+      display:block;
+    }
+  }
+  &-name {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  &-text {
+    font-size: 1rem;
+  }
+}
+
 </style>

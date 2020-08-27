@@ -79,10 +79,10 @@
   width: 100%;
   padding: 100px 30px 30px 30px;
 
-  background-image: url(../assets/bg_portfolio-min.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  // background-image: url(../assets/bg_portfolio-min.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
 
   display: flex;
   flex-direction: column;
@@ -110,16 +110,17 @@
 
 .portfolio-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .portfolio-card {
-  width: 480px;
+  max-width: 1000px;
   height: 400px;
-  background-color: rgba(0, 0, 0, 0.6);
-  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.2);
-  border: 0.5px solid rgb(57, 72, 85);
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.2);
+  // border: 0.5px solid rgb(57, 72, 85);
   border-radius: 5px;
   padding: 15px 25px;
   margin: 10px;
