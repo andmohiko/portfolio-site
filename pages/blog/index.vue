@@ -7,7 +7,6 @@
       <card
         v-for="post in posts"
         v-bind:key="post.fields.slug"
-        :headerImage="post.fields.headerImage"
         :title="post.fields.title"
         :body="post.fields.body"
         :slug="post.fields.slug"
@@ -49,10 +48,10 @@ export default {
   width: 100%;
   padding: 100px 30px 30px 30px;
 
-  background-image: url(../../assets/bg-blog-min.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  // background-image: url(../../assets/bg-blog-min.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
 
   display: flex;
   flex-direction: column;
@@ -79,9 +78,10 @@ export default {
 
 .blog-content {
   display: flex;
-  flex-wrap: wrap;
-  // flex-direction: row;
+  // flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  // background-color: rgba(0, 0, 0, 0.4);
 }
 
 .card {
