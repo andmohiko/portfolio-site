@@ -1,4 +1,5 @@
 <template>
+  <section class="header">
   <header class="header-container">
     <h1 class="header-logo">
       <a href="https://twitter.com/andmohiko">
@@ -19,6 +20,7 @@
       </ul>
     </nav>
   </header>
+  </section>
 </template>
 
 <style scoped lang="scss">
@@ -33,6 +35,10 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 0px 30px;
+  @media screen and (min-width: 1000px) {
+    width: 1000px;
+    margin-left: calc(100vw/2 - 500px);
+  }
 
   ul {
     display: flex;
@@ -51,6 +57,15 @@
     opacity: 0.7;
   }
 }
+
+// .header {
+  // width: 1000px;
+  // @media screen and (min-width: 1000px) {
+    // width: 1000px;
+    // margin-left: calc(100vw/2 - 500px);
+    // margin-right: calc(100vw/2 - 500px);
+//   }
+// }
 
 .header-logo {
   margin: 6px 0;
