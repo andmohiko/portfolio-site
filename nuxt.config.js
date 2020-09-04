@@ -50,7 +50,10 @@ const config = {
     injected: true,
     preset: 'default',
     linkify: true,
-    breaks: true
+    breaks: true,
+    use: [
+      'markdown-it-br'
+    ]
   },
 
   generate: {
