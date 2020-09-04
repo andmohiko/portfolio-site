@@ -48,11 +48,6 @@ export default {
   width: 100%;
   padding: 100px 30px 30px 30px;
 
-  // background-image: url(../../assets/bg-blog-min.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
-
   display: flex;
   flex-direction: column;
   // justify-content: center;
@@ -86,6 +81,6 @@ export default {
 
 .card {
   flex-direction: row;
-  margin: 10px;
+  margin: 12px;
 }
 </style>
