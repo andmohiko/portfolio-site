@@ -12,7 +12,6 @@ export default ({ app }, inject) => {
 
   md.use(require('markdown-it-meta'))
   md.use(require('markdown-it-anchor'))
-  md.use(require('markdown-it-br'))
 
   inject('md', md)
 }
