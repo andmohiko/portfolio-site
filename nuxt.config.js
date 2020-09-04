@@ -44,7 +44,8 @@ const config = {
   plugins: [{ src: '~plugins/contentful' }],
 
   modules: [
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    '@nuxtjs/google-analytics'
   ],
   markdownit: {
     injected: true,
@@ -55,7 +56,9 @@ const config = {
       'markdown-it-br'
     ]
   },
-
+  googleAnalytics: {
+    id: 'UA-154613461-1'
+  },
   generate: {
     routes() {
       return cdaClient.getEntries({
