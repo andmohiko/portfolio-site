@@ -5,6 +5,18 @@
     </div>
     <div class="portfolio-content">
       <div class="portfolio-card">
+        <a href="https://minima-list.web.app/">
+          <img src="../assets/portfolios/minima.png" alt="minima" />
+        </a>
+        <h2>ミニマリスト向け持ち物管理アプリ</h2>
+        <p>
+          はじめて作ったウェブアプリです。Nuxt+Rails+FirebaseAuthで作ってます。
+          <br />詳しくは<a href="/blog/20200904">こちらのブログ</a>で書いてます。
+        </p>
+      </div>
+
+
+      <div class="portfolio-card">
         <a href="https://speakerdeck.com/andmohiko/wen-zhang-falsebekutoruhua">
           <img src="../assets/portfolios/sentenceembedding.png" alt="scentence embedding" />
         </a>
@@ -145,6 +157,14 @@
     color: #e1e1e1;
     margin: 10px 0;
     line-height: 1.2rem;
+  }
+  a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover {
+    opacity: 0.7;
   }
 }
 </style>
