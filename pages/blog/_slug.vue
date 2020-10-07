@@ -36,7 +36,10 @@ export default {
         };
       })
       .catch(console.error);
-  }
+  },
+	mounted() {
+		Prism.highlightAll()
+	}
 };
 </script>
 
