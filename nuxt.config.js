@@ -41,7 +41,10 @@ const config = {
     },
   },
 
-  plugins: [{ src: '~plugins/contentful' }],
+  plugins: [
+		{ src: '~plugins/contentful'},
+		{ src: '~plugins/prism'}
+	],
 
   modules: [
     '@nuxtjs/markdownit',
