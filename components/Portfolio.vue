@@ -5,8 +5,8 @@
     </div>
     <div class="portfolio-content">
       <div class="portfolio-card">
-        <a href="https://minima-list.web.app/">
-          <img src="../assets/portfolios/minima.png" alt="minima" />
+        <a href="https://smarepo.me/">
+          <img src="../assets/portfolios/smarepo.png" alt="smarepo" />
         </a>
         <h2>スマブラ戦績記録・分析アプリ</h2>
         <p>
