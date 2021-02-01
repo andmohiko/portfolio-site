@@ -1,5 +1,5 @@
 <template>
-  <section class="home-page">
+  <div class="home-page">
     <div class="top-container">
       <h1>andmohiko.dev</h1>
       <!-- <p>学生エンジニア</p> -->
@@ -12,47 +12,45 @@
         </a>
       </div>
     </div>
-    <div class="about-container" id="about">
+    <section class="about-container" id="about">
       <About />
-    </div>
-    <!-- <div class="portfolios-container" id="portfolios">
+    </section>
+
+    <section class="section-container">
       <div class="title">
-        <h2>Portfolios</h2>
+        <h2>Portfolio</h2>
       </div>
-      <div class="portfolios-content">
-      </div>
-    </div> -->
-    <!-- <div class="skills-container" id="skills">
-      <div class="title">
-        <h2>Skills</h2>
-      </div>
-      <div class="skills">
-        <div class="skills-name">
-          Python<br>
-          Machine Learning<br>
-          Natural Language Processing<br>
-          Vue.js<br>
-          Typescript<br>
-          Rails<br>
-          Docker<br>
-        </div>
-        <div class="skills-level">
-          ★★★★★<br>
-          ★★★★★<br>
-          ★★★★★<br>
-          ★★★★☆<br>
-          ★★★★☆<br>
-          ★★☆☆☆<br>
-          ★★★☆☆<br>
+      <div class="portfolio-content">
+        <div class="portfolio-card">
+          <div class="portfolio-text">
+            <h3>スマレポ</h3>
+            <span class="subtitle">スマブラ戦績記録・分析アプリ</span>
+            <p class="description">
+              <span>スマブラが上手くなりたすぎて作りました。</span>
+              <span>対戦の記録をつけていくとキャラごとの勝率とかを見れたり、</span>
+              <span>勝率の変化をグラフで見れます。</span>
+              <span>自分の弱みを把握して対策できるアプリです。</span>
+            </p>
+            <p class="description">
+              <span>NuxtとFirebaseを使ってます。</span>
+              <span>詳しくは<nuxt-link to="/blog/20210131">こちらのブログ</nuxt-link>で書いてます。</span>
+            </p>
+          </div>
+          <div class="portfolio-img">
+            <a href="https://smarepo.me/">
+              <img src="../assets/portfolios/smarepo.png" alt="smarepo" />
+            </a>
+          </div>
         </div>
       </div>
-    </div> -->
-    <div class="blog-container">
+    </section>
+
+    <section class="section-container">
       <div class="title">
         <h2>Blog</h2>
       </div>
       <div class="blog-content">
-        <card
+        <Card
           v-for="post in posts"
           v-bind:key="post.fields.slug"
           :title="post.fields.title"
@@ -61,8 +59,8 @@
           :publishedAt="post.fields.publishedAt"
         />
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -141,6 +139,15 @@ export default {
   }
 }
 
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+
 .about-container {
   // height: calc(100vh - 80px);
   size: cover;
@@ -166,26 +173,58 @@ export default {
     position: relative;
     top: 40px;
   }
-
-  a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  a:hover {
-    opacity: 0.7;
-  }
 }
 
-.about-container {
+.section-container {
   height: auto;
-}
-
-.portfolios-container {
+  display: flex;
+  flex-direction: column;
   height: auto;
-  width: 100%;
+  // width: 100%;
+  max-width: 1000px;
+  margin: 100px 0 0 0;
   padding: 30px;
+
+  @media screen and (min-width: 1000px) {
+    margin-left: calc(100vw/2 - 500px);
+  }
+}
+
+.portfolio {
+  &-content {
+    h3 {
+      color: #ffffff;
+      font-size: 1.8rem;
+      padding-bottom: 12px
+    }
+    .subtitle {
+      color: #bbbbbb;
+      font-size: 1.1rem;
+    }
+    .description {
+      margin: 1.5rem 0 0 0;
+      color: #d3d3d3;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px dashed rgb(57, 72, 85);
+  }
+  &-img {
+    img {
+      height: 256px;
+      width: auto;
+    }
+    margin-bottom: 1rem;
+  }
 }
 
 .skills-container {
@@ -193,7 +232,6 @@ export default {
   width: 100%;
   padding: 30px;
 }
-
 .skills {
   color: #ffffff;
   display: flex;
@@ -205,22 +243,6 @@ export default {
     min-width: 100px;
   }
 }
-
-.blog-container {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  // width: 100%;
-  max-width: 1000px;
-  margin: 100px 0;
-  padding: 30px;
-
-  @media screen and (min-width: 1000px) {
-    margin-left: calc(100vw/2 - 500px);
-  }
-}
-
 .index {
   display: flex;
   flex-wrap: wrap;

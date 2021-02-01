@@ -1,5 +1,5 @@
 <template>
-  <section class="about-container">
+  <div class="about-container">
     <div class="about">
       <div class="profile">
         <div class="profile-icon">
@@ -13,34 +13,12 @@
             <span>M2(コンピュータサイエンス)</span>
             <span>メンヘラテクノロジー</span>
             <span>AIESEC in Japan MCBCXP</span>
-            <span>Python/Machine Learning/NLP/Vuejs/Typescript</span>
+            <span>Python/Machine Learning/NLP/Vuejs/Typescript/Rails</span>
           </p>
         </div>
       </div>
-      <!-- <div class="about-icon">
-        <a href="https://twitter.com/andmohiko">
-          <img src="../assets/profilepich.png" alt="profilepic" />
-        </a>
-      </div>
-      <div class="about-profile">
-        <h2>プロフィール</h2>
-        <p>
-          M2(コンピュータサイエンス)
-          <br />メンヘラテクノロジー / AIESEC in Japan MCBCXP
-          <br />ex) TRUNK / JX通信社 / DMM / OPENLOGI / Wantedly
-        </p>
-        <h2></h2>
-        <p></p>
-        <h2>興味のある技術</h2>
-        <p>機械学習, 自然言語処理, レコメンドシステム, データサイエンス</p>
-        <h2>好きなこと</h2>
-        <p>世界平和, ポケモン, ボードゲーム, ミニマリズム, イギリス</p>
-        <p>黄色いものと白チョコがすきです</p>
-        <h2>スキル</h2>
-        <p>Python, 機械学習, Vue.js, Typescript, 英語(TOEIC 930)</p>
-      </div> -->
     </div>
-  </section>
+  </div>
 </template>
 
 <style scoped lang="scss">
@@ -49,11 +27,6 @@
   // width: 100%;
   max-width: 1000px;
   padding: 100px 30px 30px 30px;
-
-  // background-image: url(../assets/bg-about-min.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
 
   display: flex;
   flex-direction: column;
