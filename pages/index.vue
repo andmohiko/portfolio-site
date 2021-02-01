@@ -220,10 +220,10 @@ a:hover {
   }
   &-img {
     img {
-      height: 256px;
-      width: auto;
+      width: 100%;
+      height: auto;
     }
-    margin-bottom: 1rem;
+    margin: 1rem 0;
   }
 }
 
