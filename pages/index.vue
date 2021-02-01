@@ -203,7 +203,7 @@ a:hover {
     }
     .description {
       margin: 1.5rem 0 0 0;
-      color: #d3d3d3;
+      color: #ebebeb;
       font-size: 1rem;
       line-height: 1.5rem;
       display: flex;
