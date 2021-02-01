@@ -8,13 +8,13 @@
     <nav>
       <ul>
         <li>
-          <a href="/">TOP</a>
+          <nuxt-link to="/">TOP</nuxt-link>
         </li>
         <li>
-          <a href="/blog">BLOG</a>
+          <nuxt-link to="/blog">BLOG</nuxt-link>
         </li>
         <li>
-          <a href="/portfolio">PORTFOLIO</a>
+          <nuxt-link to="/portfolio">PORTFOLIO</nuxt-link>
         </li>
       </ul>
     </nav>
