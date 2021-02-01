@@ -8,10 +8,21 @@
         <a href="https://minima-list.web.app/">
           <img src="../assets/portfolios/minima.png" alt="minima" />
         </a>
+        <h2>スマブラ戦績記録・分析アプリ</h2>
+        <p>
+          スマブラが上手くなりたすぎてアプリを作りました。
+          <br />詳しくは<nuxt-link to="/blog/20210131">こちらのブログ</nuxt-link>で書いてます。
+        </p>
+      </div>
+
+      <div class="portfolio-card">
+        <a href="https://minima-list.web.app/">
+          <img src="../assets/portfolios/minima.png" alt="minima" />
+        </a>
         <h2>ミニマリスト向け持ち物管理アプリ</h2>
         <p>
           はじめて作ったウェブアプリです。Nuxt+Rails+FirebaseAuthで作ってます。
-          <br />詳しくは<a href="/blog/20200904">こちらのブログ</a>で書いてます。
+          <br />詳しくは<nuxt-link to="/blog/20200904">こちらのブログ</nuxt-link>で書いてます。
         </p>
       </div>
 
