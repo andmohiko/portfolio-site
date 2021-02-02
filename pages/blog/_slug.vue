@@ -1,14 +1,16 @@
 <template>
   <section class="blog-content-container">
-    <div class="slug">
-      <p class="slug_date">{{ (new Date(post.fields.publishedAt)).toLocaleDateString() }}</p>
-      <h1 class="slug_title">{{ post.fields.title }}</h1>
-      <img
-        v-if="post.fields.headerImage"
-        class="slug_image"
-        :src="post.fields.headerImage.fields.file.url"
-      />
-      <div class="slug_body" v-html="$md.render(post.fields.body)"></div>
+    <div class="blog-bg">
+      <div class="blog">
+        <p class="blog-date">{{ (new Date(post.fields.publishedAt)).toLocaleDateString() }}</p>
+        <h1 class="blog-title">{{ post.fields.title }}</h1>
+        <img
+          v-if="post.fields.headerImage"
+          class="blog-headerImage"
+          :src="post.fields.headerImage.fields.file.url"
+        />
+        <div class="slug_body" v-html="$md.render(post.fields.body)"></div>
+      </div>
     </div>
   </section>
 </template>
@@ -53,33 +55,40 @@ export default {
   }
 }
 
-.slug {
-  max-width: 850px;
+.blog-bg {
+  display: flex;
+  justify-content: center;
+
+  max-width: 780px;
   margin: 0 auto;
-  padding: 5%;
   border-radius: 5px;
   background-color: #f2f2f2;
   box-shadow: 0 0 3px #dedddd;
 }
 
-.slug_date {
-  margin-top: 20px;
-  font-size: 1rem;
-  color: #777777;
-  text-align: left;
-}
+.blog {
+  max-width: 720px;
+  padding: 6%;
 
-.slug_title {
-  margin: 40px 0;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  line-height: 3rem;
-  color: #333333;
-}
+  &-date {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #777777;
+    text-align: left;
+  }
 
-.slug_image {
-  max-width: 100%;
-  margin-bottom: 60px;
+  &-title {
+    margin: 40px 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 3.5rem;
+    color: #333333;
+  }
+
+  &-headerImage {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
 }
 
 .slug_body {
