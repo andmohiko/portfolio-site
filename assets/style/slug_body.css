@@ -5,7 +5,7 @@
 .slug_body h2 {
   font-size: 2rem;
   font-weight: bolder;
-  margin-top: 2.5rem;
+  margin-top: 2.8rem;
   margin-bottom: 2rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid #ddd;
@@ -14,7 +14,7 @@
 .slug_body h3 {
   font-size: 1.6rem;
   font-weight: bolder;
-  margin-top: 2.5rem;
+  margin-top: 2.8rem;
   margin-bottom: 1.5rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid #ddd;
@@ -23,35 +23,41 @@
 .slug_body h4 {
   font-size: 1.4rem;
   font-weight: bolder;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 2.8rem;
+  margin-bottom: 1rem;
   padding: 0.3rem 0;
 }
 
 /* bタグとして使う(´・ω・｀) */
 .slug_body h5 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bolder;
   line-height: 1.9rem;
 }
 
 .slug_body p {
-  font-size: 1rem;
-  line-height: 1.9rem;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
 }
 
+/* .slug_body br {
+  display: block;
+  content: "";
+  margin: 0.9rem 0;
+} */
+
 .slug_body ul{
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6rem;
 }
 
 .slug_body li{
-  font-size: 1rem;
-  line-height: 1.6rem;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
 }
 
 .slug_body li:last-child{
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6rem;
   margin-bottom: 1rem;
 }
