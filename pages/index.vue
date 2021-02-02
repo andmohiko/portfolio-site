@@ -27,13 +27,13 @@
             <span class="subtitle">スマブラ戦績記録・分析アプリ</span>
             <p class="description">
               <span>スマブラが上手くなりたすぎて作りました。</span>
-              <span>対戦の記録をつけていくとキャラごとの勝率とかを見れたり、</span>
+              <span>対戦の記録をつけていくとキャラごとの勝率とかを見れたり</span>
               <span>勝率の変化をグラフで見れます。</span>
               <span>自分の弱みを把握して対策できるアプリです。</span>
             </p>
             <p class="description">
               <span>NuxtとFirebaseを使ってます。</span>
-              <span>詳しくは<nuxt-link to="/blog/20210131">こちらのブログ</nuxt-link>で書いてます。</span>
+              <span>詳しくは<nuxt-link to="/blog/20210131">こちら</nuxt-link>のブログで書いてます。</span>
             </p>
           </div>
           <div class="portfolio-img">
@@ -99,8 +99,8 @@ export default {
   // padding: 100px 30px 30px 30px;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-container {
@@ -180,14 +180,14 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: auto;
-  // width: 100%;
-  max-width: 1000px;
+  width: 100%;
+  max-width: 800px;
   margin: 100px 0 0 0;
   padding: 30px;
 
-  @media screen and (min-width: 1000px) {
-    margin-left: calc(100vw/2 - 500px);
-  }
+  // @media screen and (min-width: 1000px) {
+  //   margin-left: calc(100vw/2 - 500px);
+  // }
 }
 
 .portfolio {
@@ -205,7 +205,7 @@ a:hover {
       margin: 1.5rem 0 0 0;
       color: #ebebeb;
       font-size: 1rem;
-      line-height: 1.5rem;
+      line-height: 1.6rem;
       display: flex;
       flex-direction: column;
     }
@@ -225,26 +225,5 @@ a:hover {
     }
     margin: 1rem 0;
   }
-}
-
-.skills-container {
-  height: auto;
-  width: 100%;
-  padding: 30px;
-}
-.skills {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  &-name {
-    min-width: 400px;
-  }
-  &-level {
-    min-width: 100px;
-  }
-}
-.index {
-  display: flex;
-  flex-wrap: wrap;
 }
 </style>

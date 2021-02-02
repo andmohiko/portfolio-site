@@ -25,8 +25,8 @@
 .about-container {
   height: auto;
   // width: 100%;
-  max-width: 1000px;
-  padding: 100px 30px 30px 30px;
+  max-width: 800px;
+  padding: 100px 0 30px 0;
 
   display: flex;
   flex-direction: column;
@@ -56,7 +56,7 @@
   width: 100%;
   // background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
-  padding: 1.2rem;
+  padding: 30px;
   line-height: 28px;
   color: #fff;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
@@ -72,24 +72,6 @@
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
-  // p {
-  //   font-size: 1.1rem;
-  //   margin-bottom: 3rem;
-  // }
-}
-
-.about-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  img {
-    height: 180px;
-    width: 180px;
-    margin: 30px 0;
-    border-radius: 100%;
-  }
 }
 
 .profile {
@@ -102,7 +84,7 @@
     img {
       height: 200px;
       width: 200px;
-      margin: 30px 50px 30px 30px;
+      margin: 30px 50px 30px 0;
       border-radius: 100%;
     }
   }
