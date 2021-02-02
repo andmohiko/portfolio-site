@@ -4,14 +4,16 @@
       <h1>BLOG</h1>
     </div>
     <div class="blog-content">
-      <card
-        v-for="post in posts"
-        v-bind:key="post.fields.slug"
-        :title="post.fields.title"
-        :body="post.fields.body"
-        :slug="post.fields.slug"
-        :publishedAt="post.fields.publishedAt"
-      />
+      <div v-for="(post, index) in posts" v-bind:key="post.fields.slug">
+        <p v-if="showYear(posts, index)" class="post-year">{{ post.fields.publishedAt.slice(0,4) }}</p>
+        <card
+          :title="post.fields.title"
+          :slug="post.fields.slug"
+          :headerImage="post.fields.headerImage"
+          :publishedAt="post.fields.publishedAt"
+          :body="post.fields.body"
+        />
+      </div>
     </div>
   </section>
 </template>
@@ -38,6 +40,14 @@ export default {
         };
       })
       .catch(console.error);
+  },
+  methods: {
+    showYear(posts, index) {
+      const postYear = posts[index].fields.publishedAt.slice(0,4)
+      if (index === 0) return true
+      const previousPostYear = posts[index-1].fields.publishedAt.slice(0,4)
+      return postYear !== previousPostYear
+    }
   }
 };
 </script>
@@ -82,5 +92,11 @@ export default {
 .card {
   flex-direction: row;
   margin: 12px;
+}
+
+.post-year {
+  font-size: 1.2rem;
+  color: #aaaaaa;
+  margin: 14px 12px;
 }
 </style>
