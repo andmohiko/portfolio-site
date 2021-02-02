@@ -25,7 +25,7 @@
 .about-container {
   height: auto;
   // width: 100%;
-  max-width: 800px;
+  max-width: 850px;
   padding: 100px 0 30px 0;
 
   display: flex;

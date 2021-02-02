@@ -181,7 +181,7 @@ a:hover {
   flex-direction: column;
   height: auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 850px;
   margin: 100px 0 0 0;
   padding: 30px;
 
