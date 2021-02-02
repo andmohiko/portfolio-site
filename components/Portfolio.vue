@@ -11,7 +11,8 @@
         <h2>スマブラ戦績記録・分析アプリ</h2>
         <p>
           スマブラが上手くなりたすぎてアプリを作りました。
-          <br />詳しくは<nuxt-link to="/blog/20210131">こちらのブログ</nuxt-link>で書いてます。
+          <br />Nuxt+Firebase+Firestoreで作ってます。
+          <br />詳しくは<nuxt-link to="/blog/20210131">こちら</nuxt-link>のブログで書いてます。
         </p>
       </div>
 
@@ -22,7 +23,7 @@
         <h2>ミニマリスト向け持ち物管理アプリ</h2>
         <p>
           はじめて作ったウェブアプリです。Nuxt+Rails+FirebaseAuthで作ってます。
-          <br />詳しくは<nuxt-link to="/blog/20200904">こちらのブログ</nuxt-link>で書いてます。
+          <br />詳しくは<nuxt-link to="/blog/20200904">こちら</nuxt-link>のブログで書いてます。
         </p>
       </div>
 
@@ -139,7 +140,7 @@
 }
 
 .portfolio-card {
-  max-width: 1000px;
+  max-width: 720px;
   height: 400px;
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.2);
@@ -167,7 +168,7 @@
   p {
     color: #e1e1e1;
     margin: 10px 0;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
   }
   a {
     color: white;

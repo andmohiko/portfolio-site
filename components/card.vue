@@ -54,6 +54,7 @@ export default {
     h1 {
       font-size: 1.5rem;
       color: white;
+      line-height: 2rem;
       // margin-bottom: 1rem;
       // text-align: center;
     }
