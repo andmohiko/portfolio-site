@@ -48,7 +48,6 @@ export default {
 <style scoped lang="scss">
 .blog-content-container {
   padding: 90px 2rem 2rem 2rem;
-  background-color: #323232;
 
   @media screen and (max-width: 850px) {
     padding: 90px 0 0 0;
