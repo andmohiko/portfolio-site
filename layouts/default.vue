@@ -72,7 +72,7 @@ html {
 }
 
 .wrapper {
-  background-color: rgb(41,41,41);
+  background-color: rgb(36, 35, 38);
 }
 
 /* .container {
