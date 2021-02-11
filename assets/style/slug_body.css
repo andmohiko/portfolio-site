@@ -1,5 +1,6 @@
 .slug_body {
   color: #333333;
+  width: 100%;
 }
 
 .slug_body h2 {
@@ -64,4 +65,15 @@
 
 .slug_body img {
   max-width: 100%;
+}
+
+.slug_body pre {
+  /* width: 100px; */
+  width: 100%;
+	/* white-space: pre-wrap; */
+  overflow-x:scroll;
+}
+
+.slug_body code {
+  overflow-x:scroll;
 }

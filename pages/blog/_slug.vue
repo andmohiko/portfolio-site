@@ -67,6 +67,7 @@ export default {
 
 .blog {
   max-width: 720px;
+  width: 100%;
   padding: 6%;
 
   &-date {
@@ -92,5 +93,10 @@ export default {
 
 .slug_body {
   color: #333333;
+
+  pre {
+	/* white-space: pre-wrap; */
+    overflow-x:scroll;
+  }
 }
 </style>
