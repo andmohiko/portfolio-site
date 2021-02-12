@@ -2,7 +2,6 @@
   <div class="home-page">
     <div class="top-container">
       <h1>andmohiko.dev</h1>
-      <!-- <p>学生エンジニア</p> -->
       <div class="links">
         <a href="https://twitter.com/andmohiko">
           <img src="@/assets/twitter.png" alt="twitter" />
