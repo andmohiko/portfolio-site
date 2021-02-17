@@ -30,7 +30,7 @@ export default {
       title: this.post.fields.title,
       meta: [
         // { hid: 'description', name: 'description', content: this.post.fields?.description },
-        { hid: 'og:site_name', property: 'og:site_name', content: this.post.fields.title + ' - andmohiko.devzw' },
+        { hid: 'og:site_name', property: 'og:site_name', content: this.post.fields.title + ' - andmohiko.dev' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url', property: 'og:url', content: 'https://andmohiko.dev/blog/' + this.post.fields.slug },
         { hid: 'og:title', property: 'og:title', content: this.post.fields.title },
