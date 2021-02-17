@@ -8,6 +8,7 @@ const { createClient } = require('./plugins/contentful')
 const cdaClient = createClient(ctfConfig)
 
 const config = {
+  mode: 'universal',
   head: {
     title: 'andmohiko',
     meta: [

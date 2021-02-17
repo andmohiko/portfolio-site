@@ -27,18 +27,7 @@ export default {
   },
   head() {
     return {
-      title: this.post.fields.title,
-      meta: [
-        // { hid: 'description', name: 'description', content: this.post.fields?.description },
-        { hid: 'og:site_name', property: 'og:site_name', content: this.post.fields.title + ' - andmohiko.devzw' },
-        { hid: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'og:url', property: 'og:url', content: 'https://andmohiko.dev/blog/' + this.post.fields.slug },
-        { hid: 'og:title', property: 'og:title', content: this.post.fields.title },
-        // { hid: 'og:description', property: 'og:description', content: this.post.fields?.description },
-        { hid: 'og:image', property: 'og:image', content: "https:"+this.post.fields.headerImage.fields.file.url },
-        { hid: 'twitter:card', name: 'twitter:card', content: "summary" },
-        { hid: 'twitter:site', name: 'twitter:site', content: "@andmohiko"}
-      ]
+      title: this.post.fields.title
     }
   },
   async asyncData({ env, params }) {
