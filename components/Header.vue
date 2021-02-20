@@ -25,7 +25,7 @@
 .header-container {
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(36, 35, 38);
   width: 100%;
   height: 90px;
   line-height: 90px;
