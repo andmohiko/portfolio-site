@@ -1,6 +1,6 @@
 <template>
-  <section class="portfolio-page">
-    <div class="portfolio-container" id="portfolio">
+  <section class="works-page">
+    <div class="works-container" id="works">
       <Portfolio />
     </div>
   </section>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.portfolio-container {
+.works-container {
   height: auto;
 }
 </style>

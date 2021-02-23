@@ -1,7 +1,7 @@
 <template>
   <section class="portfolio-container">
     <div class="title">
-      <h1>PORTFOLIO</h1>
+      <h1>WORKS</h1>
     </div>
     <div class="portfolio-content">
       <div class="portfolio-card">

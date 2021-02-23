@@ -14,7 +14,7 @@
           <nuxt-link to="/blog">BLOG</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/portfolio">PORTFOLIO</nuxt-link>
+          <nuxt-link to="/works">WORKS</nuxt-link>
         </li>
       </ul>
     </nav>

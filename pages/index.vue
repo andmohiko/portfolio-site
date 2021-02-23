@@ -17,7 +17,7 @@
 
     <section class="section-container">
       <div class="title">
-        <h2>Portfolio</h2>
+        <h2>Works</h2>
       </div>
       <div class="portfolio-content">
         <div class="portfolio-card">
