@@ -193,8 +193,8 @@ a:hover {
   &-content {
     h3 {
       color: #ffffff;
-      font-size: 1.8rem;
-      padding-bottom: 12px
+      font-size: 1.6rem;
+      padding-bottom: 20px
     }
     .subtitle {
       color: #bbbbbb;
