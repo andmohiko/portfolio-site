@@ -26,16 +26,20 @@ export default {
     markdownIt
   },
   head() {
+    const description = this.post.fields?.description || 'andmohiko.dev blog post'
+    const headerImageUrl = this.post.fields?.headerImage ?
+      "https:" + this.post.fields.headerImage.fields.file.url :
+      '@/static/favicon.png'
     return {
       title: this.post.fields.title,
       meta: [
-        { hid: 'description', name: 'description', content: this.post.fields?.description },
+        { hid: 'description', name: 'description', content: description },
         { hid: 'og:site_name', property: 'og:site_name', content: this.post.fields.title + ' - andmohiko.dev' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url', property: 'og:url', content: 'https://andmohiko.dev/blog/' + this.post.fields.slug },
         { hid: 'og:title', property: 'og:title', content: this.post.fields.title },
-        { hid: 'og:description', property: 'og:description', content: this.post.fields?.description },
-        { hid: 'og:image', property: 'og:image', content: "https:"+this.post.fields.headerImage.fields.file.url },
+        { hid: 'og:description', property: 'og:description', content: description },
+        { hid: 'og:image', property: 'og:image', content: headerImageUrl },
         { hid: 'twitter:card', name: 'twitter:card', content: "summary" },
         { hid: 'twitter:site', name: 'twitter:site', content: "@andmohiko"}
       ]
