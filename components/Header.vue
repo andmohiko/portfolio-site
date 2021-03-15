@@ -1,9 +1,9 @@
 <template>
   <header class="header-container">
     <h1 class="header-logo">
-      <a href="https://twitter.com/andmohiko">
+      <nuxt-link to="/">
         <img src="~/assets/logo.png" alt="andmohiko" />
-      </a>
+      </nuxt-link>
     </h1>
     <nav>
       <ul>
