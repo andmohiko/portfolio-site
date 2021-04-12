@@ -10,9 +10,7 @@
         <div class="profile-content">
           <p class="profile-name">andmohiko</p>
           <p class="profile-text">
-            <span>M2(コンピュータサイエンス)</span>
-            <span>メンヘラテクノロジー</span>
-            <span>AIESEC in Japan MCBCXP</span>
+            <span>R社とメンヘラテクノロジー</span>
             <span>Python / Machine Learning / NLP / Vue.js / Typescript / Rails</span>
           </p>
         </div>
