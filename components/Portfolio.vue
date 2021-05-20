@@ -28,7 +28,7 @@
       </div>
 
 
-      <div class="portfolio-card">
+      <!-- <div class="portfolio-card">
         <a href="https://speakerdeck.com/andmohiko/wen-zhang-falsebekutoruhua">
           <img src="../assets/portfolios/sentenceembedding.png" alt="scentence embedding" />
         </a>
@@ -37,9 +37,9 @@
           ニュース記事のタイトルをベクトル化し、タイトルの類似性を判定する機械学習モデルを作りました。
           <br />使っている技術はPython, 機械学習, 自然言語処理です。
         </p>
-      </div>
+      </div> -->
 
-      <div class="portfolio-card">
+      <!-- <div class="portfolio-card">
         <a href="https://qiita.com/andmohiko/items/e185cbb59d9c32e6dd6a">
           <img src="../assets/portfolios/pokemondatascience2.png" alt="pokemon data science" />
         </a>
@@ -48,7 +48,7 @@
           ポケモンのデータを分析したり機械学習してみました。分析結果をアドベントカレンダーとして書いてます。
           <br />Python, Numpy, Pandas, Matplotlib, sklearnと定番なところを全部突っ込みました。
         </p>
-      </div>
+      </div> -->
 
       <div class="portfolio-card">
         <a href="https://www.work-school.com/courses/5/">
@@ -61,7 +61,7 @@
         </p>
       </div>
 
-      <div class="portfolio-card">
+      <!-- <div class="portfolio-card">
         <a href="https://speakerdeck.com/andmohiko/predicting-categories-of-news-articles">
           <img src="../assets/portfolios/categoryprediction.png" alt="categoryprediction" />
         </a>
@@ -70,7 +70,7 @@
           ニュースアプリで配信する記事を適切なカテゴリータブに分類する問題を機械学習で解きました。
           <br />使っている技術はPython, 機械学習, 自然言語処理です。
         </p>
-      </div>
+      </div> -->
 
       <div class="portfolio-card">
         <a href="/">
@@ -83,7 +83,7 @@
         </p>
       </div>
 
-      <div class="portfolio-card">
+      <!-- <div class="portfolio-card">
         <a href="http://ajdevteam.netlify.com">
           <img src="../assets/portfolios/ajdevteam-min.png" alt="ajdevteam" />
         </a>
@@ -92,7 +92,7 @@
           アイセックジャパンの開発チームのホームページを作りました(非公式)
           <br />Bootstrapを使いました。
         </p>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
