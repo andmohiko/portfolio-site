@@ -2,17 +2,17 @@
   <div class="about-container">
     <div class="about">
       <div class="profile">
-        <div class="profile-icon">
-          <a href="https://twitter.com/andmohiko">
-            <img src="../assets/profilepich.png" alt="profilepic" />
-          </a>
-        </div>
         <div class="profile-content">
           <p class="profile-name">andmohiko</p>
           <p class="profile-text">
             <span>R社とメンヘラテクノロジー</span>
             <span>Python / Machine Learning / NLP / Vue.js / Typescript / Rails</span>
           </p>
+        </div>
+        <div class="profile-icon">
+          <a href="https://twitter.com/andmohiko">
+            <img src="../assets/profilepich.png" alt="profilepic" />
+          </a>
         </div>
       </div>
     </div>
@@ -75,23 +75,19 @@
 .profile {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  // justify-content: center;
-  // align-items: center;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
   &-icon {
     img {
       height: 200px;
       width: 200px;
-      margin: 30px 50px 30px 0;
+      margin: 30px 0;
       border-radius: 100%;
     }
   }
   &-content {
     color: #ffffff;
-    // display: flex;
-    // justify-content: center;
-    // align-items: left;
-    // margin-left: 0;
+    margin-right: 50px;
     text-align: left;
     span {
       display:block;
