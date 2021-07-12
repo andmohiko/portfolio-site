@@ -44,7 +44,7 @@ const config = {
 
   plugins: [
 		{ src: '~plugins/contentful'},
-		{ src: '~plugins/prism'}
+		// { src: '~plugins/prism'}
 	],
 
   modules: [
